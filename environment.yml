@@ -1,0 +1,27 @@
+name: collabdl
+channels:
+  - pytorch
+  - anaconda
+  - menpo
+dependencies:
+  - tensorflow-gpu
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pytorch
+  - keras
+  - ignite
+  - mpi4py
+  - pip:
+    - h5py
+    - torchsummary
+    - torchvision
+    - tqdm
+    - trimesh
+    - visdom
+    - pandas
+    - scikit-image
+    - seaborn
+    - cvxopt
+    - scikit-learn
