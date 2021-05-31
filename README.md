@@ -1,7 +1,7 @@
 # Cross-Gradient Aggregation
 Repository for implementing Cross-Gradient Aggregation (CGA)
 
-**Paper accepted in 38<sup>th</sup> International Conference on Machine Learning (ICML 2021)**
+<em>**Paper accepted in 38<sup>th</sup> International Conference on Machine Learning (ICML 2021)**</em>
 
 ## Algorithm Overview
 <p align="center">
@@ -19,15 +19,14 @@ In the proposed **CGA** algorithm,
 ## Results
 <p align="center">
     <img src="/images/plot1.jpg" width="250"><br>
-	Average training loss (log scale) for CGA optimizer on IID data distributions for training 5 agents using CNN model architecture
     <img src="/images/plot2.jpg" width="250"><br>
-	Average training loss (log scale) for CGA optimizer on non-IID data distributions for training 5 agents using CNN model architecture
     <img src="/images/plot3.jpg" width="250"><br>
-	Average training loss (log scale) for different optimizers on non-IID data distributions for training 5 agents using CNN model architecture
+	Average training loss (log scale) for (a) CGA optimizer on IID (b) CGA optimizer on non-IID data distributions (c) different optimizers on non-IID data distributions for training 5 agents using CNN model architecture.
 </p>
 
 
-## Running experiments:
+## Running experiments
+Example run: 
 ~~~
 python -m torch.distributed.launch --nnodes 1 --nproc_per_node 5 main.py --data_dist non-iid --opt CGA --epochs 5 --experiment 1 -log 5 --data CIFAR10 --model CNN --scheduler --momentum 0.5
 ~~~
