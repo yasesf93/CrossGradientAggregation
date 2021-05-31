@@ -18,12 +18,11 @@ In the proposed **CGA** algorithm,
 
 ## Results
 <p align="center">
-    <img src="/images/plot1.jpg" width="250"><br>
-    <img src="/images/plot2.jpg" width="250"><br>
-    <img src="/images/plot3.jpg" width="250"><br>
-	Average training loss (log scale) for (a) CGA optimizer on IID (b) CGA optimizer on non-IID data distributions (c) different optimizers on non-IID data distributions for training 5 agents using CNN model architecture.
+    <img src="/images/plot1.jpg" width="250">
+    <img src="/images/plot2.jpg" width="250">
+    <img src="/images/plot3.jpg" width="250">
 </p>
-
+Average training loss (log scale) for (a) CGA optimizer on IID (b) CGA optimizer on non-IID data distributions (c) different optimizers on non-IID data distributions for training 5 agents using CNN model architecture.
 
 ## Running experiments
 Example run: 
